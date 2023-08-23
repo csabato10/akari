@@ -1,0 +1,53 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+
+ //Code added to the CSS file
+
+ .controls-layout {
+   -fx-padding: 20px;
+ }
+
+ .light-button{
+     -fx-font: 25 arial;
+     -fx-base: #F2DEA2;
+ }
+
+ .lit-button{
+    -fx-font: 25 arial;
+    -fx-base: #F2DEA2;
+ }
+
+ .regular-button{
+    -fx-base: #000000;
+    -fx-text-fill: #FFFFFF;
+ }
+
+ .illegal-button{
+     -fx-base: #F2C4DE;
+     -fx-text-fill: #FFFFFF;
+  }
+
+ .success-view{
+     -fx-base: #2E86C1;
+     -fx-text-fill: #FFFFFF;
+  }
+
+  .satisfied-clue-button{
+    -fx-base: #AED8F2;
+    -fx-text-fill: #FFFFFF;
+  }
+
+  .plain-corridor{
+    -fx-base: #FFFFFF;
+  }
+
+  .controls{
+    -fx-background-color: #AED8F2;
+    -fx-border-color: #71B1D9;
+   }
